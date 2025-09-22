@@ -1,0 +1,29 @@
+.login{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.tabs .tab a{
+    color: black;
+}
+.tabs .tab a:hover, .tabs .tab a.active{
+    color:#ab47bc;
+    
+}
+.tabs .indicator{
+    background-color: #ab47bc;
+}
+.input-field .prefix.active {
+    color: #ab47bc;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]),input[type=password]:not(.browser-default):focus:not([readonly]),input[type=number]:not(.browser-default):focus:not([readonly]),input[type=email]:not(.browser-default):focus:not([readonly]),textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 1px solid #ab47bc;
+    -webkit-box-shadow: 0 1px 0 0 #ab47bc;
+    box-shadow: 0 1px 0 0 #ab47bc;
+}
+input[type=text]:not(.browser-default):focus:not([readonly])+ label,input[type=number]:not(.browser-default):focus:not([readonly])+ label,input[type=email]:not(.browser-default):focus:not([readonly])+ label{
+    color: #ab47bc;
+}
+[type="checkbox"]:checked+span:not(.lever):before{
+    border-right: 3px solid #ab47bc;
+    border-bottom: 3px solid #ab47bc;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel administrativo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/fontello.css">
+    <link rel="stylesheet" href="styledash/dashbordstyle.css">
+</head>
+<body>
+    <header >
+        <nav class="transparent">
+            <div class="nav-wrapper ">
+                <a href="#" class="sidenav-trigger" data-target="slideout"><i class="icon-menu black-text"></i></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="row container" >
+            <div class="col l4 m4 s4">
+                <div class="card">
+                    <div class="card-content">
+                        <i class="icon-users icard"></i>
+                        <h1>0</h1>
+                    </div>
+                    <div class="url">
+                        <a class="url-item" href="#">Usuarios </a>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="col l4 m4 s4">
+                <div class="card">
+                    <div class="card-content">
+                        <i class="icon-t-shirt icard"></i>
+                        <h1>100</h1>
+                    </div>
+                    <div class="url">
+                        <a class="url-item" href="#">Productos </a>
+                    </div>
+                </div>
+            </div>                            
+
+            <div class="col l4 m4 s4">
+                <div class="card">
+                    <div class="card-content">
+                        <i class="icon-chart-bar icard"></i>
+                        <h1>100</h1>
+                    </div>
+                    <div class="url">
+                        <a class="url-item" href="#">Estadisticas</a>
+                    </div>
+                </div>
+            </div>              
+        </div>
+
+
+            <ul class="sidenav sidenav-fixed" id="slideout">
+               <li><div class="user-view">
+                    <img src="assetsdash/usuario.png" alt="">
+               </div></li>
+               <div class="divider"></div>
+                <li><a href="">Ventas</a></li>
+                <div class="divider"></div>
+                <li><a href="">Historial de ventas</a></li>
+                <div class="divider"></div>
+                <li><a href="productos.html">Productos</a></li>
+                <div class="divider"></div>
+                <li><a href="suarios.html">Usuarios registrados</a></li>
+                <div class="divider"></div>
+                <li><a href="">configuraciones de cuenta</a></li>
+            </ul>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="scriptsdash/dashbordscript.js"></script>
+</body>
+</html>

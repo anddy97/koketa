@@ -1,0 +1,179 @@
+nav .brand-logo.logo{
+    background: black;
+    width: 120px;
+    text-align: center;
+    margin: 0%;
+    color: gold;
+    height: 100%;
+}
+.nav{
+   background: #ab47bc; 
+}
+.nav-deslizable{
+    background: #ab47bc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #493240, #ab47bc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #493240, #ab47bc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.nav-deslizable li a{
+    color: white;
+}
+.nav-deslizable li a i{
+    color: white;
+}
+.container{
+    width: 95%;
+}
+.sidenav .divider{
+    margin: 0%;
+}
+/* productos */
+.card .card-content{
+    padding: 2px;
+    text-align: center;
+}
+.card-content h5{
+    padding: 0%;
+    margin: 0%;
+    font-size: 14px;
+    color: gray;
+}
+.card-content p{
+    font-size: 20px;
+}
+.btn{
+    padding: 0%;
+    width: 100%;
+    padding-right: 8%;
+    margin-bottom: 4px;
+}
+.card-image{
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    display: block;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+.overlay:hover{
+    background: black;
+    opacity: .2;
+}
+.contacto{
+    color: white;
+}
+.input-field{
+    padding: 0%;
+    margin: 0%;
+}
+input[type=search]:not(.browser-default .nav-buscador){
+    border: 2px solid white;
+    height: 30px;
+    margin-top: 15px;
+    width: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 5%;
+    border-radius: 8px;
+}
+
+.navegadorarriba{
+    height: 55px;
+    width: 100%;
+    background: #ab47bc;
+    position: relative;
+    display: none;
+    text-align: center;
+    padding: 5px 10px;
+}
+.navegadorarriba h4{
+    background: black;
+    color: gold;
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.cont-icon-users, .cont-icon-cart .icon-basket.phone{
+    color: white;
+    font-size: 20px;
+}
+.cont-icon-users{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 10px
+}
+.cont-icon-cart{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top:10px;
+}
+@media screen and (max-width: 600px) {
+    .navegadorarriba{
+        display: block;
+        
+    }
+    .brand-logo{
+        display: none;
+    }
+}
+.menu-respo{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+/* carrito */
+.carr{
+    display: flex;
+}
+.cart{
+    color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 15px;
+    background: black;
+    width: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: sans-serif;
+}
+/* footer */
+.page-footer{
+    background: black;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+/* boton de whatsapp */
+.whatsapp{
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    background: #4dc247;
+    color: rgb(236, 231, 231);
+    bottom: 15%;
+    right: 5%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 50px;
+    z-index: 100;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+}
+.whatsapp:hover{
+    background-color: rgb(236, 231, 231);
+    color: rgb(132, 194, 40);
+}
+/* icon phones */

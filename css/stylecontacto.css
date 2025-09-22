@@ -1,0 +1,30 @@
+.text-ubicacion{
+    text-align: center;
+}
+iframe{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+.maps{
+    padding-left: auto;
+    padding-right: auto;
+}
+.input-field .prefix.active {
+    color: #ab47bc;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]),input[type=number]:not(.browser-default):focus:not([readonly]),input[type=email]:not(.browser-default):focus:not([readonly]),textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 1px solid #ab47bc;
+    -webkit-box-shadow: 0 1px 0 0 #ab47bc;
+    box-shadow: 0 1px 0 0 #ab47bc;
+}
+input[type=text]:not(.browser-default):focus:not([readonly])+ label,input[type=number]:not(.browser-default):focus:not([readonly])+ label,input[type=email]:not(.browser-default):focus:not([readonly])+ label{
+    color: #ab47bc;
+}
+.btn{
+    background: #ab47bc;
+}
+.btn:hover{
+    background: #432c46;
+}

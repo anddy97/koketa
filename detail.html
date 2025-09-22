@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOKETA jeans - Detalle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilosdetail.css">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+    <div class="navegadorarriba">
+        <a class="cont-icon-users" href="usuario.html">
+            <i class="icon-user"></i>
+        </a>
+        <h4>KOKETA</h4>
+        <a class="cont-icon-cart" href="cart.html">
+    <i class="icon-basket phone"><span class="cart">0</span></i>
+        </a>
+    </div>
+    <header class="menu-respo">
+      <nav class=" nav">
+          <div class="nav-wrapper container">
+              <!-- logo ----->
+              <a class="brand-logo left hide-on-med-and-down logo" href="index.html">KOKETA</a>
+              <!-- buscador -->
+                <a class="brand-logo sidenav-trigger left " href="#">
+                <form action="">
+                    <div class="input-field">
+                    <input class="nav-buscador"type="search" name="search" placeholder="buscar...">
+                    </div>
+                </form>
+                 </a>
+                 <!-- menu-phone -->
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="icon-menu"></i></a>
+              <ul class=" hide-on-med-and-down right">
+                  <li>
+                    <form action="">
+                        <div class="input-field">
+                            <input  class="nav-buscador" type="search" name="search" placeholder="buscar...">
+                        </div>
+                    </form>
+                </li>
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="catalogo.html">Catalogo</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="usuario.html"><i class="icon-user "></i></a></li>
+                <li><a class="carr" href="cart.html"><i class="icon-basket">
+                        <span class="cart">0</span>
+                    </i></a></li>
+              </ul>
+          </div>
+
+        </nav>
+    </header>
+    <ul class="sidenav nav-deslizable" id="mobile-demo">
+      <li><a href="index.html"><i class="icon-home-1 right"></i>Inicio</a></li>
+      <div class="divider"></div>
+      <li><a href="catalogo.html"><i class="icon-th right"></i> Catalogo</a></li>
+      <div class="divider"></div>
+      <li><a href="contacto.html"><i class="icon-mail right"></i> Contacto</a></li>
+      <div class="divider"></div>
+      <li><a href="usuario.html"><i class="icon-user right"></i>Mi cuenta</a></li>
+      <div class="divider"></div>
+      <li><a href="cart.html"><i class="icon-basket right"></i>Tus compras</a></li>
+  </ul>
+    <main class="container">
+        <!--------Imagen-detalle --------->
+        <div class="row detallecompleto">
+            <div class="col l6 m6 s12">
+                <div class="cont-img">
+                    <img src="assets/imagen_muestra2.jpg" alt="">
+                </div>
+            </div>
+            <!------- texto-detalle ------>
+            <div class="col l6 m6 s12">
+                <div class="cont-detail">
+                    <h1>Nombre del producto</h1>
+                    <p class="precio">$500.00</p>
+                    <p class="cantidad">Cantidad:</p>
+                    <div class="cant">
+                        <button class="btn-detail waves-effect black">-</button>
+                        <p>x1</p>
+                        <button class="btn-detail
+                        waves-effect black">+</button>
+                    </div>
+                    <select class="browser-default">
+                        <option value="" disabled selected>Seleccione talla</option>
+                        <option value="s">Small</option>
+                        <option value="m">Medium</option>
+                        <option value="l">Large</option>
+                        <option value="l">Xtra large</option>
+                        <option value="l">2Xlarge</option>
+                      </select>
+                   <a class="btn-comprar waves-effect  purple lighten-1" href="cart.html">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <!----------- productos-relacionados --------->
+        <div class="productos-relacionados">
+            <h2>Productos relacionados</h2>
+        </div>
+        <div class="row">
+            <div class="col l3 m3 s6">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="detail.html">
+                            <img src="assets/imagen_muestra2.jpg" alt="">
+                            <div class="overlay"></div>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h5>Producto de muestra</h5>
+                        <p>Precio: $300.00</p>
+                        <a href="detail.html" class="waves-effect waves-light btn purple lighten-1"><i class="icon-basket right"></i>agregar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l3 m3 s6">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="detail.html">
+                            <img src="assets/imagen_muestra2.jpg" alt="">
+                            <div class="overlay"></div>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h5>Producto de muestra</h5>
+                        <p>Precio: $300.00</p>
+                        <a href="detail.html" class="waves-effect waves-light btn purple lighten-1"><i class="icon-basket right"></i>agregar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l3 m3 s6">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="detail.html">
+                            <img src="assets/imagen_muestra2.jpg" alt="">
+                            <div class="overlay"></div>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h5>Producto de muestra</h5>
+                        <p>Precio: $300.00</p>
+                        <a href="detail.html" class="waves-effect waves-light btn purple lighten-1"><i class="icon-basket right"></i>agregar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- boton de whatsapp -->
+        <a href="#" class="whatsapp " target="_blank">
+            <i class="icon-whatsapp"></i>
+         </a> 
+    </main>
+
+    <footer class="page-footer ">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 m6 s6">
+                    <h5>footer Content</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta maxime earum deserunt cum nesciunt saepe nobis ad consequuntur commodi amet. Impedit aspernatur nihil non nostrum.</p>
+                </div>
+                <div class="col l6 m6 s6">
+                    <h5>Contacto</h5>
+                    <ul>
+                        <li><a class="contacto" href="#"><i class="icon-facebook-squared"></i>Facebook</a></li>
+                        <li><a class="contacto" href="#"><i class="icon-instagram"></i>Instagram</a></li>
+                        <li><a class="contacto" href="#"><i class="icon-mail"></i>prueba@gmail.com</a></li>
+                        <li><a class="contacto" href="#"><i class="icon-phone"></i>1122334455</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+          <div class="container">
+          © 2021 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#">More Links</a>
+          </div>
+        </div>
+      </footer>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="scripts/main.js"></script>
+
+</body>
+</html>

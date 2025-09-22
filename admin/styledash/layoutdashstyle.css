@@ -1,0 +1,21 @@
+header, main, footer {
+    padding-left: 300px;
+  }
+  .container{
+  width: 95%;
+}
+  
+@media only screen and (max-width : 992px) {
+header, main, footer {
+  padding-left: 0;
+}
+}
+img{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+}
+.sidenav .divider{
+    margin: 0;
+}

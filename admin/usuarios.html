@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/fontello.css">
+    <link rel="stylesheet" href="styledash/styleusers.css">
+    <link rel="stylesheet" href="styledash/layoutdashstyle.css">
+</head>
+<body>
+    <header >
+        <nav class="transparent">
+            <div class="nav-wrapper ">
+                <a href="#" class="sidenav-trigger" data-target="slideout"><i class="icon-menu black-text"></i></a>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col l12 m12 s12">
+                <div class="usuario-reg">
+                    <h1>Usuarios registrados</h1>
+                </div>
+                <table class="centered">
+                    <thead>
+                      <tr>
+                          <th>Id:</th>
+                          <th>Nombre:</th>
+                          <th>Edad:</th>
+                          <th>Mail:</th>
+                          <th>Telefono:</th>
+                      </tr>
+                    </thead>
+            
+                    <tbody>
+                      <tr>
+                        <th>1</th>
+                        <td>Alvin</td>
+                        <td>20</td>
+                        <td>test1@gmail.com</td>
+                        <td>1122334455</td>
+                      </tr>
+                      <tr>
+                        <th>2</th>
+                        <td>Alan</td>
+                        <td>21</td>
+                        <td>test2@gmail.com</td>
+                        <td>1122334455</td>
+                      </tr>
+                      <tr>
+                        <th>3</th>
+                        <td>Jonathan</td>
+                        <td>19</td>
+                        <td>test3@gmail.com</td>
+                        <td>1122334455</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="total">
+                      <h5>Total de usuarios</h5>
+                      <p>3</p>
+                  </div>
+            </div>
+        </div>
+
+
+        <ul class="sidenav sidenav-fixed" id="slideout">
+            <li><div class="user-view">
+                 <img src="assetsdash/usuario.png" alt="">
+            </div></li>
+            <div class="divider"></div>
+             <li><a href="">Ventas</a></li>
+             <div class="divider"></div>
+             <li><a href="">Historial de ventas</a></li>
+             <div class="divider"></div>
+             <li><a href="">Productos</a></li>
+             <div class="divider"></div>
+             <li><a href="usuarios.html">Usuarios registrados</a></li>
+             <div class="divider"></div>
+             <li><a href="">configuraciones de cuenta</a></li>
+         </ul>
+    </main>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="scriptsdash/usersscripts.js"></script>
+    <script src="scriptsdash/layoutdash.js"></script>
+</body>
+</html>
